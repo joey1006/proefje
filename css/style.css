@@ -16,18 +16,6 @@ h1{
     padding: 15px;
     display: inline-block;
 }
-
-#galleryProducts .galleryItem img{
-	width: 100px;
-<<<<<<< HEAD
-    filter: blur(0%);
-    transition: 300ms;
-}
-
-#galleryProducts .galleryItem img:hover {
-    filter: blur(2px);
-=======
-}
 .bookitem{
 	background-color: greenyellow;
 	margin: 1em;
