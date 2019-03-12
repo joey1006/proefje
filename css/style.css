@@ -24,3 +24,8 @@ h1{
 	width: 300px;
 >>>>>>> cee12ef3df911e1f1bd9899224d8f66e2e88e88e
 }
+
+table,tr,th,td
+            {
+                border: 1px solid black;
+            }
