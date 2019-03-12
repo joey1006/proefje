@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 12 mrt 2019 om 11:36
+-- Gegenereerd op: 12 mrt 2019 om 11:47
 -- Serverversie: 10.1.16-MariaDB
 -- PHP-versie: 5.6.24
 
@@ -32,6 +32,13 @@ CREATE TABLE `advertisement` (
   `image` varchar(255) NOT NULL,
   `publishername` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `advertisement`
+--
+
+INSERT INTO `advertisement` (`id`, `advertisename`, `image`, `publishername`) VALUES
+(1, 'cocacolareclame', 'cocacola.jpg', 'coca corporation');
 
 -- --------------------------------------------------------
 
@@ -91,7 +98,7 @@ ALTER TABLE `books`
 -- AUTO_INCREMENT voor een tabel `advertisement`
 --
 ALTER TABLE `advertisement`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT voor een tabel `books`
 --
