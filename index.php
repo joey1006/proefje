@@ -1,6 +1,9 @@
+<script type="text/javascript" src="javascript/javascript.js"></script>
 <?php
 include "includes/config.php";
 include "includes/database.php";
+
+include "view/search.php";
 
 include "view/head.php";
 include "view/welcome.php";
@@ -33,3 +36,4 @@ switch ($page) {
 }
 
  ?>
+ 
