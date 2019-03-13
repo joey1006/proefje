@@ -6,12 +6,16 @@ include "includes/connection.php";
 
 include "model/getbooks.php";
 
-include "controller/bookdisplay.php";
+//include "controller/bookdisplay.php";
 
-include "view/search.php";
+//include "view/search.php";
 
 include "view/head.php";
-include "view/welcome.php";
+//include "view/navigation.php";
+
+include "view/filter.php";
+include "controller/DummyFilter.php";
+//include "view/welcome.php";
 
 
 // $page = isset($_GET['page'])?$_GET['page']:'Home';
