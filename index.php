@@ -5,7 +5,8 @@ include "includes/config.php";
 include "includes/connection.php";
 
 include "model/getbooks.php";
-
+include "model/insertbooks.php";
+include "view/admininsert.php";
 include "controller/bookdisplay.php";
 
 include "view/search.php";
