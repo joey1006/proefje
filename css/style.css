@@ -1,22 +1,50 @@
 body {
+    margin-top: 100px;
 	background-color: rgb(163, 91, 91);
 }
 h1{
 	color: red;
 }
 
+/*navigation*/
+/*
+#navigation ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#navigation ul li {
+    float: left;  
+}
+
+#navigation ul li a {
+  display: block;
+    color: #fff;
+    text-align: center;
+  width: 60px;
+}
+*/
+
 #galleryProducts {
     width: 98%;
     padding: 15px 0;
     margin: 0 auto;
+     display: inline-block;
 }
 
  .galleryItem {
-    width: calc(33,333333% - 30px);
+    width: calc(10% - 30px);
     padding: 15px;
     display: inline-block;
 }
+
+ .galleryItem img {
+     width: 100px;
+ }
 .bookitem{
+    width: calc(16.5% - 2em);
+    display: inline-block;
 	background-color: greenyellow;
 	margin: 1em;
 }
