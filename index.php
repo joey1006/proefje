@@ -4,10 +4,12 @@
 include "includes/config.php";
 include "includes/connection.php";
 
+include "model/get_category.php";
+//include "view/view_category.php";
+
 include "model/getbooks.php";
 
 //include "controller/bookdisplay.php";
-
 //include "view/search.php";
 
 include "view/head.php";
@@ -16,6 +18,14 @@ include "view/head.php";
 include "view/filter.php";
 include "controller/DummyFilter.php";
 //include "view/welcome.php";
+
+
+
+
+
+
+
+
 
 
 // $page = isset($_GET['page'])?$_GET['page']:'Home';

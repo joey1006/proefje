@@ -2,7 +2,7 @@
 
 
 
-$search_result = $mysqli->query("SELECT * FROM books ORDER BY id");
+$search_result = $connection->query("SELECT * FROM books ORDER BY id");
 
 
 ?>
