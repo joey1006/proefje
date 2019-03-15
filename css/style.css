@@ -49,11 +49,5 @@ padding: 0;
 	margin: 1em;
 }
 .bookitem img{
-	width: 100px;
-}
-
-form#search {
-position: absolute;
-    top: 15px;
-    right: 15px;
+	width: 300px;
 }
