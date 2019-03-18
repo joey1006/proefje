@@ -4,28 +4,27 @@
 include "includes/config.php";
 include "includes/connection.php";
 
-include "model/get_category.php";
+
 //include "view/view_category.php";
 
-include "model/getbooks.php";
+//include "model/getbooks.php";
 
-include "model/insertbooks.php";
-include "view/admininsert.php";
-include "controller/bookdisplay.php";
+//include "model/insertbooks.php";
+//include "view/admininsert.php";
 //include "controller/bookdisplay.php";
-<<<<<<< HEAD
-=======
+//include "controller/bookdisplay.php";
 
-
->>>>>>> e9bfd8c7c0d2720ffd670f4c5362bf11390712bf
 //include "view/search.php";
 
 include "view/head.php";
 //include "view/navigation.php";
 
+include "model/get_category.php";
+
 include "view/filter.php";
 include "controller/DummyFilter.php";
 //include "view/welcome.php";
+
 
 
 

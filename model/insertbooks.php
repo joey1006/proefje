@@ -1,7 +1,7 @@
 <?php
 
-include "../includes/config.php";
-include "../includes/connection.php";
+include "includes/config.php";
+include "includes/connection.php";
 
 $Title          = $_POST["Title"];
 $Category       = $_POST["Category"];
@@ -26,10 +26,10 @@ VALUES                  ('$Title', '$Category', '$Price', '$Image', '$Summary', 
 // VALUES                   (NULL, 'gf', 'dfgdf', 'gdf', 'df', 'dfg', 'gdfg', 'dfg', 'fdg', 'dfgf', 'dgfd', 'gdfg', 'dg11111111')";
 
 
-if (mysqli_query($mysqli, $sql)) {
+if (mysqli_query($connection, $sql)) {
     echo "New record created successfully";
 } else {
-    echo "Error: " . $sql . "<br>" . mysqli_error($mysqli);
+    echo "Error: " . $sql . "<br>" . mysqli_error($connection);
 }
 
 

@@ -1,10 +1,23 @@
+/*Colors
+#F6CDB3  ---  beige
+#DC735C  ---  oranje   // tevens de hypertext
+#30333F  ---  donkerblauw
+#FFFFFF  ---  wit
+
+
+font     ---  serif
+*/
+
 body {
     margin-top: 100px;
-	background-color: rgb(163, 91, 91);
+	background-color: #30333F;
 }
-h1{
-	color: red;
+h1, h2, h3, h4, h5, h6, p, a {
+    color: #F6CDB3;
+    font-family: serif;
 }
+
+
 
 /*navigation*/
 /*
@@ -26,6 +39,33 @@ padding: 0;
 }
 */
 
+#categories {
+    width: 100%;
+    height: 100px;
+}
+
+#categories ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#categories ul li {
+    float: left;  
+}
+
+#categories ul li a {
+  display: block;
+    color: #fff;
+    text-align: center;
+  width: 60px;
+}
+
+#search {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
 #galleryProducts {
     width: 98%;
     padding: 15px 0;
@@ -43,11 +83,29 @@ padding: 0;
      width: 100px;
  }
 .bookitem{
-    width: calc(16.5% - 2em);
+    width: calc(28% - 2em);
     display: inline-block;
-	background-color: greenyellow;
 	margin: 1em;
+    border: 1px solid black;
+    padding: 15px;
 }
-.bookitem img{
-	width: 300px;
+.bookitem .bookcover{
+	width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.bookitem .title {
+    font-size: 1.5rem;
+    color: #F6CDB3;
+    margin: 10px 0;
+    padding: 0;
+    
+}
+
+.bookitem > .author, .category {
+    color: #DC735C;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
 }

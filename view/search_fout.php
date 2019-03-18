@@ -1,9 +1,6 @@
 <?php
-//include "../includes/config.php";
-//include "../includes/database.php";
 //als iemand op de knop zoeken drukt voer dan volgende code uit
 if (isset($_POST['submit'])) {
-    //$connection = new mysqli(host "localhost", username "root", passwd "", dbname "books");
     //in de variable q word opgeslagen wat de user invult in het input veld, real escape string beveiligd het invoerveld
     $q = $connection->real_escape_string($_POST['q']);
     $column = $connection->real_escape_string($_POST['q']);
