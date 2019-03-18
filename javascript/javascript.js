@@ -1,5 +1,3 @@
-Console.log("bliep");
-
 var test = document.getElementById("image");
 
 image.addEventListener("mouseover", function( event ) {   
