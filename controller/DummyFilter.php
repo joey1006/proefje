@@ -1,4 +1,8 @@
 <?php
+
+include "../includes/config.php";
+include "../includes/connection.php";
+
 if(isset($_POST['search']))
 {
     $valueToSearch = $_POST['valueToSearch'];
