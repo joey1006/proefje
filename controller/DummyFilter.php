@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="../css/style.css">
 <?php
 if(isset($_POST['search']))
 {
@@ -37,6 +38,8 @@ function filterTable($query)
             "<p class='Sizes'>"        . $row['Sizes']         . "</p>"    .
             "<p class='Weight'>"       . $row['Weight']        . "</p>"    .
             "<p class='Language'>"     . $row['Language']      . "</p>"    .
+            "<a class='buy_btn' href='#'>Koop Direct</a>" . "of" . 
+            "<a class='order_btn' href='#'>Bestel</a>" .
             "</div>"
             ;
             }      

@@ -1,20 +1,18 @@
 <?php
 $id=$_GET['id'];
-//if($id=='thriller') {
-//    $query23="SELECT * FROM books WHERE category='thriller' ";
-//}
-//elseif($id=='fantasy') {
-//    $query23="SELECT * FROM books WHERE category='fantasy' ";
-//}
-//elseif($id=='erotic') {
-//    $query23="SELECT * FROM books WHERE category='erotic' ";
-//}
-//elseif($id=='biografie') {
-//    $query23="SELECT * FROM books WHERE category='biografie' ";
-//}
-if($id=='$id') {
-    $query100="SELECT * FROM books WHERE category='$id'";
+if($id=='thriller') {
+    $query23="SELECT * FROM books WHERE category='thriller' ";
 }
+elseif($id=='fantasy') {
+    $query23="SELECT * FROM books WHERE category='fantasy' ";
+}
+elseif($id=='erotic') {
+    $query23="SELECT * FROM books WHERE category='erotic' ";
+}
+elseif($id=='biografie') {
+    $query23="SELECT * FROM books WHERE category='biografie' ";
+}
+
 else {
 $query23="SELECT * FROM books";
 }

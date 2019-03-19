@@ -58,7 +58,7 @@ padding: 0;
   display: block;
     color: #fff;
     text-align: center;
-  width: 60px;
+  width: 100px;
 }
 
 #search {
@@ -108,4 +108,27 @@ padding: 0;
     margin: 0;
     padding: 0;
     display: inline-block;
+    margin-bottom: 10px;
+}
+
+.bookitem > .buy_btn, .order_btn {
+    position: relative;
+    
+}
+
+.bookitem .buy_btn {
+    background-color: #DC735C;
+    padding: 15px 30px;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+.bookitem .buy_btn:hover{
+    background-color: #F6CDB3;
+}
+
+.bookitem .order_btn {
+    
 }
