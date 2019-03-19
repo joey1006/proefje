@@ -1,11 +1,9 @@
+<link rel="stylesheet" type="text/css" href="../css/style.css">
 <?php
 include "../includes/config.php";
 include "../includes/connection.php";
 $id=$_GET['id'];
 if($id=='thriller') {
-<<<<<<< HEAD
-    $query23="SELECT * FROM books WHERE category='thriller' ";
-=======
    $query23="SELECT * FROM books WHERE category='thriller' ";
 }
 elseif($id=='fantasy') {
@@ -16,7 +14,6 @@ elseif($id=='erotic') {
 }
 elseif($id=='biografie') {
    $query23="SELECT * FROM books WHERE category='biografie' ";
->>>>>>> a0b0cafd72a2445782963f4003597dc1bfd50444
 }
 elseif($id=='fantasy') {
     $query23="SELECT * FROM books WHERE category='fantasy' ";

@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var Fantasy = document.getElementById("Fantasy");
   var Biografie = document.getElementById("Biografie");
 
-  var Item = document.querySelectorAll(".ProcessItem");
+  //var Item = document.querySelectorAll(".ProcessItem");
 
 
 
@@ -30,7 +30,7 @@ function Filter(category) {
     console.log("Categoryclass = " + categoryclass);
       categoryclass.forEach(element => {
         console.log("Categorychangehappening = " + categoryclass);
-        element.style.display = "";
+        element.style.display = "";          
       });
 }
 
