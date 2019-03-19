@@ -1,7 +1,9 @@
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 <?php
-include "../includes/config.php";
-include "../includes/connection.php";
+
+//include "../includes/config.php";
+//include "../includes/connection.php";
+
 $id=$_GET['id'];
 if($id=='thriller') {
    $query23="SELECT * FROM books WHERE category='thriller' ";

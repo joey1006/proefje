@@ -29,8 +29,9 @@ include "view/head.php";
 
  switch ($page) {
     case 'Home';
-        include "includes/config.php";
-        include "includes/connection.php";
+        include 'view/preview_books.php';
+        include 'includes/config.php';
+        include 'includes/connection.php';
         include 'try/index.html';
         break;
  	case 'categories':
@@ -39,7 +40,7 @@ include "view/head.php";
         include "includes/connection.php";
  		include 'model/get_category.php';
         include 'view/goBack.php';
-        //include "controller/DummyFilter.php";
+        include "controller/DummyFilter.php";
         //include "view/view_category.php";
  		break;
  	case 'products':
@@ -47,7 +48,7 @@ include "view/head.php";
         include "includes/connection.php";
         include 'view/goBack.php';
  		include "controller/DummyFilter.php";
-         //include "view/view_category.php";
+        include "view/view_category.php";
  		break;
  	default:
         include "includes/config.php";

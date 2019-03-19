@@ -17,19 +17,117 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 /*Home Page / Camera Page*/
+
+.preview_books {
+    margin-left: 15px;
+}
+
+.preview_books .book {
+    display: inline-block;
+    margin: auto 50px;
+}
+
+.preview_books .book > .Book_cover_front, .Book_cover_back {
+    background-color: #FDD;
+    width: 250px;
+    height: 400px;
+    display: inline-block;
+    box-shadow: -5px 5px 8px #888888;
+}
+
+.preview_books .book >  .Book_cover_back {
+    margin-left: -50px;
+}
+
+.preview_books .book .Book_cover_front > .BookTitle, .jouw_naam {
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.preview_books .book .Book_cover_front > .BookTitle {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.preview_books .book .Book_cover_front > .sticker {
+	width: 70px;
+	height: 35px;
+	background-color: #ddd;
+	margin: 270px 0 0 25px;
+}
+
+/*Make your own book*/
+
+.bookReal {
+    margin: 100px auto;
+    width: 50%
+}
+
+.bookReal .Book_cover_front {
+	width: 500px;
+	height: 640px;
+	background-color: #f00;
+    display: inline-block;
+}
+
+.bookReal .Book_cover_front > .BookTitle, .jouw_naam {
+	text-align: center;
+}
+.bookReal .Book_cover_front > .BookTitle {
+    font-size: 3em;
+}
+
+.bookReal .Book_cover_back {
+	width: 500px;
+	height: 640px;
+	position: absolute;
+	margin: 50px 0 0 -50px;
+}
+.bookReal .Book_cover_back #video {
+	position: relative;
+	width: 60%;
+	transform: translate(-50%,-50%);
+	top: 30%;
+	left: 50%;
+}
+
+.bookReal .Book_cover_back .description {
+	text-align: center;
+	color: #000;
+    margin: 25% 15%;
+}
+
+.TextMakeYourOwnBook {
+	text-align: center;
+	font-size: 3em;
+}
+
+.Homepage_btns{
+    text-align: center;
+    
+}
+
 button#snap {
-    color: #ffffff;
-    background-color: #DC735C;
-    padding: 15px;
+	color: #ffffff;
+	background-color: #DC735C;
+	padding: 15px;
+	border-radius: 100px;
 }
 
-a.GoToCategories{
-    color: #ffffff;
-    background-color: #DC735C;
-    padding: 15px;
-    border-radius: 20px;
+button#snap img {
+	width: 25px;
 }
 
+a.GoToCategories {
+	color: #ffffff;
+	background-color: #DC735C;
+	padding: 15px 35px;
+	border-radius: 20px;
+	text-decoration: none;
+	font-size: 2em;
+	margin: 0 40px;
+}
 /*Back button at the top of categories*/
 #Back_btn::before {
 	content: "";

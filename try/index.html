@@ -5,11 +5,25 @@
 	client supports video/camera, but for the sake of illustrating the 
 	elements involved, they are created with markup (not JavaScript)
 -->
-
-<video id="video" width="640" height="480" autoplay></video>
+<div class="bookReal">
+   <div class="Book_cover_front">
+      <p class="BookTitle">titel</p>
+      <p class="jouw_naam">Jouw naam</p>
+      <div class="sticker"></div>
+   </div>
+   <div class="Book_cover_back">
+       <video id="video" autoplay></video>
+      <p class="description"> Dit is een voorbeeld tekst voor dit supergave boek </p>
+      <div class="sticker"></div>
+      </div>
+</div>
+<p class="TextMakeYourOwnBook">Maak hier jou eigen boek of gebruik mij </br> voor het bekijken en bestellen van boeken!</p>
+<div class="Homepage_btns">
 <a class="GoToCategories" href="?page=categories">Zoek naar een boek</a>
-<button id="snap">Snap Photo</button>
+<button id="snap"><img src="https://cdn1.iconfinder.com/data/icons/iconmart-web-icons-2/64/camera-512.png"/></button>
+</div>
 <canvas id="canvas" width="640" height="480"></canvas>
+
 
 
 
