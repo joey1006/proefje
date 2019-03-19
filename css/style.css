@@ -120,16 +120,16 @@ color: #DC735C;
 #categories ul #Koken::before {
     background-image: url('../images/icons/Asset%2016_Pan.svg');}
 
-#categories ul #Natuur_tuin::before {
+#categories ul #Natuur::before {
     background-image: url('../images/icons/Asset%2015_nature.svg');}
 
 #categories ul #Gezondheid::before {
     background-image: url('../images/icons/Asset%2010_heart.svg');}
 
-#categories ul #Spiritueliteit::before {
+#categories ul #Spiritualiteit::before {
     background-image: url('../images/icons/Asset%2013_YinYang.svg');}
 
-#categories ul #Young_adults::before {
+#categories ul #Youngadult::before {
     background-image: url('../images/icons/Asset%2012_man.svg');}
 
 #categories ul #Drama::before {
@@ -144,7 +144,7 @@ color: #DC735C;
 #categories ul #Fantasy::before {
     background-image: url('../images/icons/Asset%207_magicWand.svg');}
 
-#categories ul #Sport_hobby::before {
+#categories ul #Sporthobby::before {
     background-image: url('../images/icons/Asset%205_soccerBall.svg');}
 
 
