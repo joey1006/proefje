@@ -31,13 +31,13 @@ include "view/head.php";
     case 'Home';
         include "includes/config.php";
         include "includes/connection.php";
-        include 'view/camera.php';
+        include 'try/index.html';
         break;
  	case 'categories':
-         include 'view/filter_joey.php';
+        include 'view/filter_joey.php';
         include "includes/config.php";
         include "includes/connection.php";
- 		include 'model/get_category.php';
+ 	 include 'model/get_category.php';
         include "controller/DummyFilter.php";
  		
  		break;
