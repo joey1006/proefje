@@ -1,14 +1,5 @@
 <div id="categories">
   <p class="TitleCategories">Categorieen</p>
-<<<<<<< HEAD
-   <ul>
-    <li><a href="view/view_category.php?id=thriller">Thriller</a></li>
-    <li><a href="view/view_category.php?id=fantasy">Fantasie</a></li>
-    <li><a href="view/view_category.php?id=erotic">Erotiek</a></li>
-    <li><a href="view/view_category.php?id=biografie">Biografie</a></li>
-    <li><a href="view/view_category.php?id=geschiedenis">Geschiedenis</a></li>
-</ul>
-=======
     <!-- <ul>
       <li><a href="view/view_category.php?id=thriller">thriller</a></li>
       <li><a href="view/view_category.php?id=fantasy">fantasy</a></li>
@@ -22,5 +13,5 @@
       <li id="Erotic">Erotic</a></li>
       <li id="Biografie">Biografie</a></li>
     </ul>
->>>>>>> a0b0cafd72a2445782963f4003597dc1bfd50444
+
 </div>

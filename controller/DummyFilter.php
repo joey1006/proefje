@@ -28,24 +28,7 @@ function filterTable($query)
 
   while($row = mysqli_fetch_assoc($search_result))    
             {
-            echo 
-<<<<<<< HEAD
-            "<div class='bookitem'>"   .
-            "<img class='bookcover'src='"    . $row['Image']   . "'>"      .
-            "<p class='Title'>"        . $row['Title']         . "</p>"    . 
-            "<p class='Author'>"       . $row['Author'] . ','  . "&nbsp;"     . "</p>"    .    
-            "<p class='Category'>"     . $row['Category']      . "</p>"    .            
-            "<p class='Summary'>"      . $row['Summary']       . "</p>"    .
-            "<p class='Price'>"        . $row['Price']         . "</p>"    .
-            "<p class='PublisherName'>". $row['PublisherName'] . "</p>"    .
-            "<p class='Publishdate'>"  . $row['Publishdate']   . "</p>"    .
-            "<p class='Storage'>"      . $row['Storage']       . "</p>"    .
-            "<p class='Sizes'>"        . $row['Sizes']         . "</p>"    .
-            "<p class='Weight'>"       . $row['Weight']        . "</p>"    .
-            "<p class='Language'>"     . $row['Language']      . "</p>"    .
-            "<a class='buy_btn' href='#'>Koop Direct</a>" . "of" . 
-            "<a class='order_btn' href='#'>Bestel</a>" .
-=======
+            echo
             "<div class='bookitem " . $row['Category'] ."'>"   .
             "<img class='bookcover'src='"    . $row['Images']   . "'>"      .
             "<p class='Title'>"              . $row['Title']         . "</p>"    . 
@@ -59,7 +42,6 @@ function filterTable($query)
             "<p class='Sizes'>"              . $row['Sizes']         . "</p>"    .
             "<p class='Weight'>"             . $row['Weight']        . "</p>"    .
             "<p class='Language'>"           . $row['Language']      . "</p>"    .
->>>>>>> a0b0cafd72a2445782963f4003597dc1bfd50444
             "</div>"
             ;
             }      
