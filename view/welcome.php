@@ -2,7 +2,7 @@
 <html>
 
 	<body>
-
+	<input type="file" accept="image/*;capture=camera">
 		<h1> Stumpel </h1>
 
 		<h2>Bas en Joey</h2>

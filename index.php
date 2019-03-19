@@ -7,12 +7,12 @@ include "includes/connection.php";
 
 //include "view/view_category.php";
 
-//include "model/getbooks.php";
+// include "model/getbooks.php";
 
-//include "model/insertbooks.php";
-//include "view/admininsert.php";
+// include "model/insertbooks.php";
+// include "view/admininsert.php";
 //include "controller/bookdisplay.php";
-//include "controller/bookdisplay.php";
+// include "controller/bookdisplay.php";
 
 //include "view/search.php";
 

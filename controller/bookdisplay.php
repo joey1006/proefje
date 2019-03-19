@@ -1,7 +1,7 @@
 <?php
 
 
-    while($row = mysqli_fetch_assoc($bookresult))    
+    while($row = mysqli_fetch_assoc($searchresult))    
             {
             echo 
             "<div class='bookitem'>"                .
