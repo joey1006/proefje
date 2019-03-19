@@ -1,5 +1,4 @@
 <!--<button id="Back_btn" onclick="history.go(-1);">terug </button>-->
-<a id="Back_btn" href='javascript:history.back(1);'></a>
  <div id="categories">
   <p class="TitleCategories"></p>
 <!--

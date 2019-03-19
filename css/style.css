@@ -16,7 +16,6 @@ h1, h2, h3, h4, h5, h6, p, a {
     font-family: serif;
 }
 
-
 /*Home Page / Camera Page*/
 button#snap {
     color: #ffffff;
@@ -50,6 +49,27 @@ a.GoToCategories{
 
 /*Categorieen page*/
 
+#categories {
+    width: 100%;
+    height: 100px;
+}
+
+#categories ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#categories ul li {
+    float: left;  
+}
+
+#categories ul li a {
+  display: block;
+    color: #fff;
+    text-align: center;
+  width: 100px;
+}
 
 #categories ul .Cat_options {
     float: left;
@@ -127,47 +147,9 @@ color: #DC735C;
 #categories ul #Sport_hobby::before {
     background-image: url('../images/icons/Asset%205_soccerBall.svg');}
 
-/*navigation*/
-/*
-#navigation ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-}
 
-#navigation ul li {
-    float: left;  
-}
 
-#navigation ul li a {
-  display: block;
-    color: #fff;
-    text-align: center;
-  width: 60px;
-}
-*/
 
-#categories {
-    width: 100%;
-    height: 100px;
-}
-
-#categories ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-}
-
-#categories ul li {
-    float: left;  
-}
-
-#categories ul li a {
-  display: block;
-    color: #fff;
-    text-align: center;
-  width: 100px;
-}
 
 #search {
     position: absolute;
