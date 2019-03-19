@@ -1,23 +1,16 @@
-var docuArray = ['Thriller', 'Erotic','Biografie','Fantasy'];
+var docuArray = ['Thriller', 'Kinderboeken','Stripboeken','Kunst'];
 
 document.addEventListener("DOMContentLoaded", function(event) {
   var Thriller = document.getElementById("Thriller");
-  var Erotic = document.getElementById("Erotic");
-  var Fantasy = document.getElementById("Fantasy");
-  var Biografie = document.getElementById("Biografie");
+  var Kinderboeken = document.getElementById("Kinderboeken");
+  var Kunst = document.getElementById("Kunst");
+  var Stripboeken = document.getElementById("Stripboeken");
 
-<<<<<<< HEAD
-  //var Item = document.querySelectorAll(".ProcessItem");
-
-
-
-=======
->>>>>>> 271b434e278093f5cd19e03e21a1a13721ec2120
-  if (Thriller && Erotic && Fantasy && Biografie) {
+  if (Thriller && Kinderboeken && Kunst && Stripboeken) {
     Thriller.addEventListener('click', function(){Filter("Thriller");}, false);
-    Erotic.addEventListener('click', function(){Filter("Erotic");}, false);
-    Fantasy.addEventListener('click', function(){Filter("Fantasy");}, false);
-    Biografie.addEventListener('click', function(){Filter("Biografie");}, false);
+    Kinderboeken.addEventListener('click', function(){Filter("Kinderboeken");}, false);
+    Kunst.addEventListener('click', function(){Filter("Kunst");}, false);
+    Stripboeken.addEventListener('click', function(){Filter("Stripboeken");}, false);
   
   }
 });

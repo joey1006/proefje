@@ -4,7 +4,6 @@
 #30333F  ---  donkerblauw
 #FFFFFF  ---  wit
 
-
 font     ---  serif
 */
 
@@ -18,6 +17,115 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 
+/*Home Page / Camera Page*/
+button#snap {
+    color: #ffffff;
+    background-color: #DC735C;
+    padding: 15px;
+}
+
+a.GoToCategories{
+    color: #ffffff;
+    background-color: #DC735C;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/*Back button at the top of categories*/
+#Back_btn::before {
+	content: "";
+	background-image: url(../images/icons/noun_back_1651207.svg);
+	width: 50px;
+	height: 50px;
+	background-size: 100%;
+	display: inline-block;
+}
+
+#Back_btn {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+
+/*Categorieen page*/
+
+
+#categories ul .Cat_options {
+    float: left;
+    text-align: center;
+    font-size: 2em;
+    width: 33%;
+    height: 200px;
+    color: #F6CDB3;
+    margin: 15px 0 30px 0;
+    padding: 15px 0;
+}
+
+#categories ul .Cat_options::before {
+    content: "";
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 100%;
+    height: 80%;
+    margin-bottom: 30px;
+}
+
+
+#categories ul .Cat_options:nth-child(-n+3) {
+color: #DC735C;
+}
+
+#categories ul #Nieuw::before {
+    background-image: url('../images/icons/noun_new_1533444.svg');}
+
+#categories ul #Meest_verkocht::before {
+    background-image: url('../images/icons/noun_Heart_2313413.svg');}
+
+#categories ul #Sale::before {
+    background-image: url('../images/icons/noun_sale_684426.svg');}
+
+#categories ul #Kinderboeken::before {
+    background-image: url('../images/icons/Asset%206_BoyAndGirl.svg');}
+
+#categories ul #Computer::before {
+    background-image: url('../images/icons/Asset%2018_pc.svg');}
+
+#categories ul #Stripboeken::before {
+    background-image: url('../images/icons/Asset%2017_comics.svg');}
+
+#categories ul #Kunst::before {
+    background-image: url('../images/icons/Asset%2014_ColorPallet.svg');}
+
+#categories ul #Koken::before {
+    background-image: url('../images/icons/Asset%2016_Pan.svg');}
+
+#categories ul #Natuur_tuin::before {
+    background-image: url('../images/icons/Asset%2015_nature.svg');}
+
+#categories ul #Gezondheid::before {
+    background-image: url('../images/icons/Asset%2010_heart.svg');}
+
+#categories ul #Spiritueliteit::before {
+    background-image: url('../images/icons/Asset%2013_YinYang.svg');}
+
+#categories ul #Young_adults::before {
+    background-image: url('../images/icons/Asset%2012_man.svg');}
+
+#categories ul #Drama::before {
+    background-image: url('../images/icons/Asset%2011_cross.svg');}
+
+#categories ul #Thriller::before {
+    background-image: url('../images/icons/Asset%209_gun.svg');}
+
+#categories ul #Reisgidsen::before {
+    background-image: url('../images/icons/Asset%208_globe.svg');}
+
+#categories ul #Fantasy::before {
+    background-image: url('../images/icons/Asset%207_magicWand.svg');}
+
+#categories ul #Sport_hobby::before {
+    background-image: url('../images/icons/Asset%205_soccerBall.svg');}
 
 /*navigation*/
 /*
