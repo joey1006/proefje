@@ -31,7 +31,7 @@ include "view/head.php";
     case 'Home';
         include "includes/config.php";
         include "includes/connection.php";
-        include 'view/camera.php';
+        include 'try/index.html';
         break;
  	case 'categories':
         include 'view/filter_joey.php';
@@ -39,15 +39,15 @@ include "view/head.php";
         include "includes/connection.php";
  		include 'model/get_category.php';
         include 'view/goBack.php';
-        include "controller/DummyFilter.php";
-         include "view/view_category.php";
+        //include "controller/DummyFilter.php";
+        //include "view/view_category.php";
  		break;
  	case 'products':
         include "includes/config.php";
         include "includes/connection.php";
         include 'view/goBack.php';
  		include "controller/DummyFilter.php";
-         include "view/view_category.php";
+         //include "view/view_category.php";
  		break;
  	default:
         include "includes/config.php";

@@ -19,15 +19,15 @@
       <li class="Cat_options" id="Stripboeken">Stripboeken</li>
       <li class="Cat_options" id="Kunst">Kunst</li>
       <li class="Cat_options" id="Koken">Koken</li>
-      <li class="Cat_options" id="Natuur_tuin">Natuur &amp; tuin</li>
+      <li class="Cat_options" id="Natuur">Natuur &amp; tuin</li>
       <li class="Cat_options" id="Gezondheid">Gezondheid</li>
-      <li class="Cat_options" id="Spiritueliteit">Spiritueliteit</li>
-      <li class="Cat_options" id="Young_adults">Young adults</li>
+      <li class="Cat_options" id="Spiritualiteit">Spiritueliteit</li>
+      <li class="Cat_options" id="Youngadult">Young adults</li>
       <li class="Cat_options" id="Drama">Drama</li>
       <li class="Cat_options" id="Thriller">Thriller</li>
       <li class="Cat_options" id="Reisgidsen">Reisgidsen</li>
       <li class="Cat_options" id="Fantasy">Fantasy</li>
-      <li class="Cat_options" id="Sport_hobby">Sport &amp; hobby</li>
+      <li class="Cat_options" id="Sporthobby">Sport &amp; hobby</li>
       <li class="Cat_options" id=""></li>
     </ul>
 
