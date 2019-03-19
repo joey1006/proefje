@@ -28,6 +28,7 @@ function filterTable($query)
 
   while($row = mysqli_fetch_assoc($search_result))    
             {
+<<<<<<< HEAD
             echo 
 
 //            "<div class='bookitem'>"   .
@@ -47,6 +48,9 @@ function filterTable($query)
 //            "<a class='order_btn' href='#'>Bestel</a>" .
 //              "</div>"  .
 
+=======
+            echo
+>>>>>>> 271b434e278093f5cd19e03e21a1a13721ec2120
             "<div class='bookitem " . $row['Category'] ."'>"   .
             "<img class='bookcover'src='"    . $row['Images']   . "'>"      .
             "<p class='Title'>"              . $row['Title']         . "</p>"    . 
@@ -60,7 +64,10 @@ function filterTable($query)
             "<p class='Sizes'>"              . $row['Sizes']         . "</p>"    .
             "<p class='Weight'>"             . $row['Weight']        . "</p>"    .
             "<p class='Language'>"           . $row['Language']      . "</p>"    .
+<<<<<<< HEAD
 
+=======
+>>>>>>> 271b434e278093f5cd19e03e21a1a13721ec2120
             "</div>"
             ;
             }      

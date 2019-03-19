@@ -6,10 +6,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var Fantasy = document.getElementById("Fantasy");
   var Biografie = document.getElementById("Biografie");
 
+<<<<<<< HEAD
   //var Item = document.querySelectorAll(".ProcessItem");
 
 
 
+=======
+>>>>>>> 271b434e278093f5cd19e03e21a1a13721ec2120
   if (Thriller && Erotic && Fantasy && Biografie) {
     Thriller.addEventListener('click', function(){Filter("Thriller");}, false);
     Erotic.addEventListener('click', function(){Filter("Erotic");}, false);
@@ -34,28 +37,3 @@ function Filter(category) {
       });
 }
 
-
-function FilterRequired() {
-  var itemClass = document.querySelectorAll('.processItem');
-  itemClass.forEach(element => {
-    element.style.display = "none";
-  });
-  var stripedClass = document.querySelectorAll('.Striped');
-  stripedClass.forEach(element => {
-    element.style.display = "none";
-  });
-  var requiredClass = document.querySelectorAll('.Required');
-  requiredClass.forEach(element => {
-    element.style.display = "";
-  });
-}
-function FilterReset() {
-  var StripedClass = document.querySelectorAll('.Striped');
-  StripedClass.forEach(element => {
-    element.style.display = "";
-  });
-  var itemClass = document.querySelectorAll('.processItem');
-  itemClass.forEach(element => {
-    element.style.display = "";
-  });
-}
