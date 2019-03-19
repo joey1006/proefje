@@ -34,9 +34,12 @@ include "view/head.php";
         include 'view/camera.php';
         break;
  	case 'categories':
+         include 'view/filter_joey.php';
         include "includes/config.php";
         include "includes/connection.php";
  		include 'model/get_category.php';
+        include "controller/DummyFilter.php";
+ 		
  		break;
  	case 'products':
         include "includes/config.php";
