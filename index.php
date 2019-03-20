@@ -43,6 +43,21 @@ include "view/head.php";
         include "controller/DummyFilter.php";
         //include "view/view_category.php";
  		break;
+<<<<<<< HEAD
+ 	case 'products':
+        include "includes/config.php";
+        include "includes/connection.php";
+        include 'view/goBack.php';
+ 	    	include "controller/DummyFilter.php";
+        include "view/view_category.php";
+ 		break;
+     case 'book':
+         include "includes/config.php";
+        include "includes/connection.php";
+        include 'view/goBack.php';
+        include 'view/view_book.php';
+         break;
+=======
  	// case 'products':
     //     include "includes/config.php";
     //     include "includes/connection.php";
@@ -50,6 +65,7 @@ include "view/head.php";
  	// 	include "controller/DummyFilter.php";
     //     include "view/view_category.php";
  	// 	break;
+>>>>>>> 5475c84e7077ed8b05bbfe2b230df6cf8c510638
  	default:
         include "includes/config.php";
         include "includes/connection.php";
@@ -58,11 +74,11 @@ include "view/head.php";
  }
 
  ?>
- 
- 
- 
+
+
+
 <!-- Voorbeeld voor page switch -->
- <?php 
+ <?php
 
 //$title = '';
 //
@@ -107,4 +123,3 @@ include "view/head.php";
 //}
 
  ?>
- 
