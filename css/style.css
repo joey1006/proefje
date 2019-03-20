@@ -25,12 +25,13 @@ h1, h2, h3, h4, h5, h6, p, a {
 .preview_books .book {
     display: inline-block;
     margin: auto 50px;
+    width: calc(100% / 4);
 }
 
 .preview_books .book > .Book_cover_front, .Book_cover_back {
     background-color: #FDD;
-    width: 250px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     display: inline-block;
     box-shadow: -5px 5px 8px #888888;
 }
@@ -48,13 +49,6 @@ h1, h2, h3, h4, h5, h6, p, a {
 .preview_books .book .Book_cover_front > .BookTitle {
     font-size: 2em;
     margin: 10px 0;
-}
-
-.preview_books .book .Book_cover_front > .sticker {
-	width: 70px;
-	height: 35px;
-	background-color: #ddd;
-	margin: 270px 0 0 25px;
 }
 
 /*Make your own book*/
@@ -85,11 +79,8 @@ h1, h2, h3, h4, h5, h6, p, a {
 	margin: 50px 0 0 -50px;
 }
 .bookReal .Book_cover_back #video {
-	position: relative;
 	width: 60%;
-	transform: translate(-50%,-50%);
-	top: 30%;
-	left: 50%;
+	margin: 100px 0 0 100px;
 }
 
 .bookReal .Book_cover_back .description {
@@ -105,7 +96,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 .Homepage_btns{
     text-align: center;
-    
+
 }
 
 button#snap {
@@ -159,7 +150,7 @@ padding: 0;
 }
 
 #categories ul li {
-    float: left;  
+    float: left;
 }
 
 #categories ul li a {
@@ -246,7 +237,27 @@ color: #DC735C;
     background-image: url('../images/icons/Asset%205_soccerBall.svg');}
 
 
+/*  style for 1 book page*/
+#book_1 {
+	width: 60%;
+	margin: 0 auto;
+}
+#book_1 #bookcover {
+	width: 100%;
+}
+#book_1 .Title_book {
+	font-weight: 700;
+	margin: 5px 0;
+	font-size: 2.3em;
+}
 
+#book_1 > .author, .summary {
+	font-size: 1.5em;
+	margin: 0 auto;
+}
+#book_1 > .author {
+	color: #DC735C;
+}
 
 
 #search {
@@ -288,7 +299,7 @@ color: #DC735C;
     color: #F6CDB3;
     margin: 10px 0;
     padding: 0;
-    
+
 }
 
 .bookitem > .author, .category {
@@ -301,7 +312,7 @@ color: #DC735C;
 
 .bookitem > .buy_btn, .order_btn {
 /*  position: relative;*/
-    
+
 }
 
 .bookitem .buy_btn {
@@ -318,5 +329,5 @@ color: #DC735C;
 }
 
 .bookitem .order_btn {
-    
+
 }

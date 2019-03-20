@@ -47,9 +47,15 @@ include "view/head.php";
         include "includes/config.php";
         include "includes/connection.php";
         include 'view/goBack.php';
- 		include "controller/DummyFilter.php";
+ 	    	include "controller/DummyFilter.php";
         include "view/view_category.php";
  		break;
+     case 'book':
+         include "includes/config.php";
+        include "includes/connection.php";
+        include 'view/goBack.php';
+        include 'view/view_book.php';
+         break;
  	default:
         include "includes/config.php";
         include "includes/connection.php";
@@ -58,11 +64,11 @@ include "view/head.php";
  }
 
  ?>
- 
- 
- 
+
+
+
 <!-- Voorbeeld voor page switch -->
- <?php 
+ <?php
 
 //$title = '';
 //
@@ -107,4 +113,3 @@ include "view/head.php";
 //}
 
  ?>
- 
