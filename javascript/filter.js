@@ -17,11 +17,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var Fantasy         = document.getElementById("Fantasy");
   var Sporthobby      = document.getElementById("Sporthobby");
 
-  
-
-
   // if (Kinderboeken & Computer & Stripboeken & Kunst & Koken & Natuur & Gezondheid & Spiritualiteit & Youngadult & Drama & Thriller & Reisgidsen & Fantasy & Sporthobby) {
   if (Kinderboeken) {
+
+    var bookclass = document.querySelectorAll('.bookitem');
+    bookclass.forEach(element => {
+        element.style.display = "none";
+      });
+
     Kinderboeken  .addEventListener('click', function(){Filter("Kinderboeken");}, false);
     Computer      .addEventListener('click', function(){Filter("Computer");}, false);
     Stripboeken   .addEventListener('click', function(){Filter("Stripboeken");}, false);
@@ -42,19 +45,21 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 function Filter(category) {
   
-    console.log("Category = " + category);
-    var bookclass = document.querySelectorAll('.bookitem');
-    bookclass.forEach(element => {
-        element.style.display = "none";
+    // console.log("Category = " + category);
+    // var bookclass = document.querySelectorAll('.bookitem');
+    // bookclass.forEach(element => {
+    //     element.style.display = "none";
         
-      });
+    //   });
     var query = "." + category;
     var categoryclass = document.querySelectorAll(query);
-    console.log("Categoryclass = " + categoryclass);
       categoryclass.forEach(element => {
-        console.log("Categorychangehappening = " + categoryclass);
         element.style.display = "";          
-        
       });
+
+    var CategoryIcons = document.querySelectorAll('.CategoryIcons');
+    CategoryIcons.forEach(element => {
+      element.style.display = "none";          
+    });
 }
 

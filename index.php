@@ -43,13 +43,13 @@ include "view/head.php";
         include "controller/DummyFilter.php";
         //include "view/view_category.php";
  		break;
- 	case 'products':
-        include "includes/config.php";
-        include "includes/connection.php";
-        include 'view/goBack.php';
- 		include "controller/DummyFilter.php";
-        include "view/view_category.php";
- 		break;
+ 	// case 'products':
+    //     include "includes/config.php";
+    //     include "includes/connection.php";
+    //     include 'view/goBack.php';
+ 	// 	include "controller/DummyFilter.php";
+    //     include "view/view_category.php";
+ 	// 	break;
  	default:
         include "includes/config.php";
         include "includes/connection.php";
