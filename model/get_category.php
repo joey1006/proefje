@@ -10,7 +10,7 @@
     <li><a href="view/view_category.php?id=geschiedenis">Geschiedenis</a></li>
     </ul>
 -->
-    <ul>
+    <ul class="CategoryIcons">
       <li class="Cat_options" id="Nieuw">Nieuw</li>
       <li class="Cat_options" id="Meest_verkocht">Meest verkocht</li>
       <li class="Cat_options" id="Sale">Sale</li>
