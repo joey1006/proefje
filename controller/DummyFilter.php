@@ -27,30 +27,23 @@ function filterTable($query)
 
   while($row = mysqli_fetch_assoc($search_result))
             {
-            echo "<div class='bookitem" . $row['Category'] . "'>
-                  <a href='?page=book&id=" . $row['Id'] . "'>
-                    <img src='" . $row['Images'] ."'>
-                   </a>
-            ";
+            echo 
 
-
-
-            // "<div class='bookitem " . $row['Category'] ."'>"   .
-            // '<a href="?page=book&id=' . $row['Id']> .'"' .
-            // "<img class='bookcover'src='"    . $row['Images']   . "'>"      .
-            // "</a>" .
-            // "<p class='Title'>"              . $row['Title']         . "</p>"    .
-            // // "<p class='Author'>"             . $row['Author'] . ','  . "&nbsp;"     . "</p>"    .
-            // // "<p class='Category'>"           . $row['Category']      . "</p>"    .
-            // // "<p class='Summary'>"            . $row['Summary']       . "</p>"    .
-            // "<p class='Price'>"              . $row['Price']         . "</p>"    .
-            // // "<p class='PublisherName'>"      . $row['PublisherName'] . "</p>"    .
-            // // "<p class='Publishdate'>"        . $row['Publishdate']   . "</p>"    .
-            // // "<p class='Storage'>"            . $row['Storage']       . "</p>"    .
-            // // "<p class='Sizes'>"              . $row['Sizes']         . "</p>"    .
-            // //"<p class='Weight'>"             . $row['Weight']        . "</p>"    .
-            // //"<p class='Language'>"           . $row['Language']      . "</p>"    .
-            // "</div>"
-            //
+            "<div class='bookitem " . $row['Category'] ."'>"   .
+            "<a href='?page=book&id=" . $row['Id'] . "'>" .
+            "<img class='bookcover'src='"    . $row['Images']   . "'>"      .
+            "</a>" .
+            "<p class='Title'>"              . $row['Title']         . "</p>"    .
+            // "<p class='Author'>"             . $row['Author'] . ','  . "&nbsp;"     . "</p>"    .
+            // "<p class='Category'>"           . $row['Category']      . "</p>"    .
+            // "<p class='Summary'>"            . $row['Summary']       . "</p>"    .
+            "<p class='Price'>"              . $row['Price']         . "</p>"    .
+            // "<p class='PublisherName'>"      . $row['PublisherName'] . "</p>"    .
+            // "<p class='Publishdate'>"        . $row['Publishdate']   . "</p>"    .
+            // "<p class='Storage'>"            . $row['Storage']       . "</p>"    .
+            // "<p class='Sizes'>"              . $row['Sizes']         . "</p>"    .
+            //"<p class='Weight'>"             . $row['Weight']        . "</p>"    .
+            //"<p class='Language'>"           . $row['Language']      . "</p>"    .
+            "</div>";
           };
 ?>
