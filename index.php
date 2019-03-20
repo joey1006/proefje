@@ -38,12 +38,11 @@ include "view/head.php";
         include 'view/filter_joey.php';
         include "includes/config.php";
         include "includes/connection.php";
- 		include 'model/get_category.php';
+ 		    include 'model/get_category.php';
         include 'view/goBack.php';
         include "controller/DummyFilter.php";
         //include "view/view_category.php";
  		break;
-<<<<<<< HEAD
  	case 'products':
         include "includes/config.php";
         include "includes/connection.php";
@@ -57,15 +56,6 @@ include "view/head.php";
         include 'view/goBack.php';
         include 'view/view_book.php';
          break;
-=======
- 	// case 'products':
-    //     include "includes/config.php";
-    //     include "includes/connection.php";
-    //     include 'view/goBack.php';
- 	// 	include "controller/DummyFilter.php";
-    //     include "view/view_category.php";
- 	// 	break;
->>>>>>> 5475c84e7077ed8b05bbfe2b230df6cf8c510638
  	default:
         include "includes/config.php";
         include "includes/connection.php";
