@@ -39,7 +39,8 @@ include "view/head.php";
         include "includes/config.php";
         include "includes/connection.php";
  		    include 'model/get_category.php';
-        include 'view/goBack.php';
+        include 'view/gobackcat.php';
+        include 'view/filter.php';
         include "controller/DummyFilter.php";
         //include "view/view_category.php";
  		break;
@@ -51,9 +52,10 @@ include "view/head.php";
         include "view/view_category.php";
  		break;
      case 'book':
-         include "includes/config.php";
+        include "includes/config.php";
         include "includes/connection.php";
         include 'view/goBack.php';
+        include 'view/filter.php';
         include 'view/view_book.php';
          break;
  	default:

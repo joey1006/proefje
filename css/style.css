@@ -6,7 +6,9 @@
 
 font     ---  serif
 */
-
+html {
+  overflow-x: hidden;
+}
 body {
     margin-top: 100px;
 	background-color: #30333F;
@@ -16,16 +18,18 @@ h1, h2, h3, h4, h5, h6, p, a {
     font-family: serif;
 }
 
+
+
 /*Home Page / Camera Page*/
 
 .preview_books {
     margin-left: 15px;
+    display: ruby;
 }
 
 .preview_books .book {
     display: inline-block;
     margin: auto 50px;
-    width: calc(100% / 4);
 }
 
 .preview_books .book > .Book_cover_front, .Book_cover_back {
@@ -54,8 +58,8 @@ h1, h2, h3, h4, h5, h6, p, a {
 /*Make your own book*/
 
 .bookReal {
-    margin: 100px auto;
-    width: 50%
+	margin: 100px 25%;
+	width: 50%;
 }
 
 .bookReal .Book_cover_front {
@@ -133,8 +137,8 @@ a.GoToCategories {
     position: absolute;
     top: 15px;
     left: 15px;
+    z-index: 100;
 }
-
 
 /*Categorieen page*/
 
@@ -240,7 +244,7 @@ color: #DC735C;
 /*  style for 1 book page*/
 #book_1 {
 	width: 60%;
-	margin: 0 auto;
+	margin: 200px auto 0 auto;
 }
 #book_1 #bookcover {
 	width: 100%;
@@ -268,8 +272,8 @@ img#bookcover_similar {
 
 #order_footer {
 	background-color: #F6CDB3;
-	width: 100%;
-	margin: 15px 0 0 0;
+	width: 95%;
+	margin: 15px auto 0 auto;
 	padding: 30px;
 }
 
@@ -287,13 +291,35 @@ img#bookcover_similar {
   margin-right: 15%;
 }
 
-
+/*  Search option + banner*/
 
 #search {
     position: absolute;
-    top: 10px;
+    top: 30px;
     right: 10px;
+    z-index: 100;
 }
+#SearchInput {
+  background-color: #DC735C;
+  color: #fff;
+  border-radius: 25px;
+  height: 30px;
+  width: 250px;
+}
+#SearchButton{
+margin-left: -51px;
+  border-radius: 100px;
+}
+
+#Banner {
+	background-color: #F6CDB3;
+	width: 100vw;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 #galleryProducts {
     width: 98%;
     padding: 15px 0;
@@ -310,13 +336,26 @@ img#bookcover_similar {
  .galleryItem img {
      width: 100px;
  }
-.bookitem{
-    width: 15%;
-    display: inline-block;
+ .bookitem {
+	width: calc(100% / 3 - 100px);
+	display: inline-block;
 	margin: 1em;
-    border: 1px solid black;
-    padding: 15px;
+	position: relative;
+	margin: 20px 50px;
 }
+
+.bookitem .Price {
+    color: #fff;
+    padding: 5px;
+    text-align: right;
+    margin-top: -29px;
+    position: absolute;
+    background-color: #DC735C;
+    right: 0;
+    border-top-left-radius: 15px;
+    width: 60px;
+  }
+
 .bookitem .bookcover{
 	width: 100%;
     margin: 0 auto;
@@ -324,11 +363,11 @@ img#bookcover_similar {
 }
 
 .bookitem .title {
-    font-size: 1.5rem;
-    color: #F6CDB3;
-    margin: 10px 0;
-    padding: 0;
-
+	font-size: 1.5rem;
+	color: #F6CDB3;
+	margin: 10px 0;
+	padding: 0;
+	text-align: center;
 }
 
 .bookitem > .author, .category {
